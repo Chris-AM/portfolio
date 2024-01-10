@@ -1,4 +1,26 @@
 {
+  "paths": [
+    {
+      "name": "Home",
+      "path": "/home"
+    },
+    {
+      "name": "About",
+      "path": "/about"
+    },
+    {
+      "name": "Projects",
+      "path": "/projects"
+    },
+    {
+      "name": "Articles",
+      "path": "/articles"
+    },
+    {
+      "name": "Contact",
+      "path": "/contact"
+    }
+  ],
   "home": [
     {
       "avatar": "src/assets/IMG_0958.PNG",
