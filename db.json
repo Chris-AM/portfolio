@@ -1,0 +1,49 @@
+{
+  "home": [
+    {
+      "avatar": "src/assets/IMG_0958.PNG",
+      "image": "src/assets/IMG_0959.HEIC",
+      "title": "Full Stack web and mobile developer. Angular Expert in the making",
+      "description": "I'm a self-taught developer with proven experience with nodeJS frameworks such Angular, and vue in front-end and express, nestJS in back-end. I'm also a mobile developer with experience in flutter and ionic. I'm always looking for new challenges and opportunities to learn new technologies and grow as a developer."
+    }
+  ],
+  "about": [
+    {
+      "title": "My Name is Christian Aránguiz. From Lautaro, Chile, developing the next technologies",
+      "description": "With over three years of experience as a Full Stack developer, I have focused on web and mobile development, specialising in the Angular platform. | stand out as a self-taught professional, consistently motivated by new challenges and dedicated to teamwork. My experience includes teaching Angular to interns and trainees, demonstrating my ability to facilitate both personal and team development. | am adept at problem-solving and conflict resolution, aiming to establish a respectful and secure work environment that encourages the expression of opinions and the professional growth of al team members.",
+      "photo": "src/assets/IMG_0968.JPG"
+    }
+  ],
+  "projects": [
+    {
+      "photo": "https://img.freepik.com/premium-photo/underconstruction-banner-logo-label-construction-site-website-down-notify-warning-industry-steel-plate-style-design_43300-2686.jpg",
+      "title": "This Page will be able soon!"
+    }
+  ],
+  "articles": [
+    {
+      "title": "My first article",
+      "description": "This is my first article, I'm so excited to share my knowledge with you",
+      "photo": "https://img.freepik.com/premium-photo/underconstruction-banner-logo-label-construction-site-website-down-notify-warning-industry-steel-plate-style-design_43300-2686.jpg"
+    }
+  ],
+  "contact": [
+    {
+      "title": "Let's get in touch!",
+      "subtitle": "There are many ways to connect with me, choose your favorite one",
+      "description": "Thank you for visiting my portfolio, I hope you liked it. If you want to contact me, you can do it through the following ways (click or touch any to copy the link to your clipboard): mail: c.aranguizm@outlook.com. github: https://github.com/Chris-AM/portfolio. linkedIn: https://www.linkedin.com/in/Chris-AM/"
+    }
+  ],
+  "links": [
+    {
+      "name": "Github",
+      "url": "https://github.com/Chris-AM/portfolio",
+      "icon": "src/assets/github-mark.svg"
+    },
+    {
+      "name": "Linkedin",
+      "url": "https://www.linkedin.com/in/Chris-AM/",
+      "icon": "src/assets/linkedin-black-iconpng.png"
+    }
+  ]
+}
