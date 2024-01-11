@@ -3,18 +3,23 @@ import {
   Component,
   OnInit,
   inject,
+  signal,
 } from '@angular/core';
 import { NavbarService } from '../../../use-cases/navbar/navbar.service';
+import { NavbarItem } from '../../../domain/domain-index';
+import { RouterModule, RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-floating-navbar',
   standalone: true,
   changeDetection: ChangeDetectionStrategy.OnPush,
-  imports: [],
+  imports: [RouterModule, RouterOutlet],
   templateUrl: './floating-navbar.component.html',
   styleUrl: './floating-navbar.component.css',
 })
 export class FloatingNavbarComponent implements OnInit {
+  public navbarItems = signal<NavbarItem[]>([]);
+
   private readonly navService: NavbarService = inject(NavbarService);
   constructor() {}
 
@@ -25,7 +30,7 @@ export class FloatingNavbarComponent implements OnInit {
   private getNavbarItems(): void {
     this.navService.getNavbarItems().subscribe({
       next: (items) => {
-        console.log('component items => ', items);
+        this.navbarItems.set(items);
       },
     });
   }

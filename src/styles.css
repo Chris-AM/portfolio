@@ -1,1 +1,25 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --primary-color: rgba(0, 0, 0, 0.8);
+  --active-color: rgba(31, 100, 30, 0.8);
+}
+@font-face {
+  font-family: "lato-black";
+  src: url("./assets/fonts/Lato/Lato-Black.ttf");
+}
+@font-face {
+  font-family: "lato-bold";
+  src: url("./assets/fonts/Lato/Lato-Bold.ttf");
+}
+@font-face {
+  font-family: "lato-regular";
+  src: url("./assets/fonts/Lato/Lato-Regular.ttf");
+}
+@font-face {
+  font-family: "raleway-variable";
+  font-weight: 700;
+  src: url("./assets/fonts/Raleway/Raleway-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: "raleway-italic";
+  src: url("./assets/fonts/Raleway/Raleway-Italic-VariableFont_wght.ttf");
+}
