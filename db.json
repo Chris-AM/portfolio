@@ -23,8 +23,8 @@
   ],
   "home": [
     {
-      "avatar": "src/assets/IMG_0958.PNG",
-      "image": "src/assets/IMG_0959.HEIC",
+      "avatar": "/assets/IMG_0958.PNG",
+      "image": "/assets/IMG_0959.HEIC",
       "title": "Full Stack web and mobile developer. Angular Expert in the making",
       "description": "I'm a self-taught developer with proven experience with nodeJS frameworks such Angular, and vue in front-end and express, nestJS in back-end. I'm also a mobile developer with experience in flutter and ionic. I'm always looking for new challenges and opportunities to learn new technologies and grow as a developer."
     }
@@ -33,7 +33,7 @@
     {
       "title": "My Name is Christian Aránguiz. From Lautaro, Chile, developing the next technologies",
       "description": "With over three years of experience as a Full Stack developer, I have focused on web and mobile development, specialising in the Angular platform. | stand out as a self-taught professional, consistently motivated by new challenges and dedicated to teamwork. My experience includes teaching Angular to interns and trainees, demonstrating my ability to facilitate both personal and team development. | am adept at problem-solving and conflict resolution, aiming to establish a respectful and secure work environment that encourages the expression of opinions and the professional growth of al team members.",
-      "photo": "src/assets/IMG_0968.JPG"
+      "photo": "/assets/IMG_0968.JPG"
     }
   ],
   "projects": [
@@ -60,12 +60,42 @@
     {
       "name": "Github",
       "url": "https://github.com/Chris-AM/portfolio",
-      "icon": "src/assets/github-mark.svg"
+      "icon": "/assets/github-mark.svg"
     },
     {
       "name": "Linkedin",
       "url": "https://www.linkedin.com/in/Chris-AM/",
-      "icon": "src/assets/linkedin-black-iconpng.png"
+      "icon": "/assets/linkedin-black-iconpng.png"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Analyst",
+      "company": "TCS",
+      "logo": "/assets/tcs-logo.png",
+      "date": "Feb 2023 - Jan 2024",
+      "description": "I worked as an Angular developer creating app architecture and following all platform's best practices."
+    },
+    {
+      "title": "Software Engineer",
+      "company": "SafeSigner",
+      "logo": "/assets/safesigner-logo.png",
+      "date": "Oct 2022 - Feb 2023",
+      "description": "In this position, I was responsible for developing and maintaining functionalities and views of the different signature and authentication portals offered by the company. Where I also helped as Angular monitor for interns and trainees."
+    },
+    {
+      "title": "Full Stack Developer",
+      "company": "Acid Labs",
+      "logo": "/assets/acid-labs-logo.png",
+      "date": "Jul 2021 - Oct 2022",
+      "description": "I worked with many clients in different projects, developing front and back end applications."
+    },
+    {
+      "title": "Front End/Mobile Developer",
+      "company": "Ntt Data",
+      "logo": "/assets/ntt-data-logo.png",
+      "date": "Oct 2020 - Jul 2021",
+      "description": "In my first developer journey. I worked as a front end developer. Where I developed a mobile app using Ionic and Angular."
     }
   ]
 }
