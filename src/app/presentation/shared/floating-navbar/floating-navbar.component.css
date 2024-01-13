@@ -44,8 +44,7 @@ nav ul li {
   line-height: 0.8rem;
   margin: 0 0.5rem;
 }
-.checkbtn {
-  color: var(--primary-color);
-  font-size: 1.7rem;
-  display: none;
+
+.nav-item-active {
+  color: var(--active-color) !important;
 }
