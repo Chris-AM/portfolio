@@ -23,3 +23,9 @@
   font-family: "raleway-italic";
   src: url("./assets/fonts/Raleway/Raleway-Italic-VariableFont_wght.ttf");
 }
+body {
+  margin: 0;
+  font-family: "lato-regular";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
