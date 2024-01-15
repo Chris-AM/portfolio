@@ -1,6 +1,13 @@
 <!-- This is the home page template -->
-<div class="homepage-logo-container">
-  <div class="">
-    <app-home-logo [homeData]="homeData()" [logoSize]="logoSize()" />
+<div class="homepage-logo-container" [ngStyle]="logoStyle()">
+  <app-home-logo [avatar]="homeData().avatar" [logoSize]="logoSize()" />
+</div>
+<div class="homepage-container">
+  <div class="description">
+    <app-home-description
+      [homeDescriptionTitle]="homeData().title"
+      [homeDescription]="homeData().description"
+      [homeDescriptionImage]="homeData().image"
+    />
   </div>
 </div>

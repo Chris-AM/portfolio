@@ -9,12 +9,14 @@ import {
 import { HomeService } from '../../../use-cases/home/home.service';
 import { HomeData } from '../../../domain/domain-index';
 import { HomeLogoComponent } from './home-logo/home-logo.component';
+import { CommonModule } from '@angular/common';
+import { HomeDescriptionComponent } from './home-description/home-description.component';
 
 @Component({
   selector: 'app-home',
   standalone: true,
   changeDetection: ChangeDetectionStrategy.OnPush,
-  imports: [HomeLogoComponent],
+  imports: [CommonModule, HomeLogoComponent, HomeDescriptionComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css',
 })
