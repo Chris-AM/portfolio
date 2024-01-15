@@ -51,16 +51,25 @@ export class HomeComponent implements OnInit {
   }
 
   public logoStyle() {
+    console.log(
+      `statay at top? => ${this.stayAtTop()} logo size => ${this.logoSize()}`,
+    );
     return {
       display: 'flex',
       position: this.stayAtTop() ? 'fixed' : 'relative',
       top: this.stayAtTop() ? '3vh' : 'auto',
-      zIndex: this.stayAtTop() ? '999' : 'auto',
-      border: this.stayAtTop() ? '1px solid black' : 'none',
+      zIndex: 999,
       borderRadius: this.stayAtTop() ? '50%' : 'none',
-      boxShadow: this.stayAtTop()
-        ? '0px 0px 10px 0px rgba(0,0,0,0.75)'
-        : 'none',
+      boxShadow: this.stayAtTop() ? '0px 4px 10px rgba(0, 0, 0, 0.25)' : 'none',
+      // display: 'flex',
+      // position: this.stayAtTop() ? 'fixed' : 'relative',
+      // top: this.stayAtTop() ? '3vh' : 'auto',
+      // zIndex: this.stayAtTop() ? '999' : 'auto',
+      // border: this.stayAtTop() ? '1px solid black' : 'none',
+      // borderRadius: this.stayAtTop() ? '50%' : 'none',
+      // boxShadow: this.stayAtTop()
+      //   ? '0px 0px 10px 0px rgba(0,0,0,0.75)'
+      //   : 'none',
     };
   }
 
