@@ -10,6 +10,6 @@ import { HomeData } from '../../../../domain/domain-index';
   styleUrl: './home-logo.component.css',
 })
 export class HomeLogoComponent {
-  @Input() homeData: HomeData = {} as HomeData;
+  @Input() avatar: string = '';
   @Input() logoSize = 0;
 }
