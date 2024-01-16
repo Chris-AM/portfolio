@@ -3,6 +3,7 @@ import {
   Component,
   Input,
   OnInit,
+  inject,
   signal,
 } from '@angular/core';
 import { SocialMedia } from '../../../domain/domain-index';
@@ -20,7 +21,8 @@ export class SocialMediaComponent implements OnInit {
   @Input() showJustIcons = false;
   public socialMedia = signal<SocialMedia[]>([]);
 
-  constructor(private readonly service: SocialMediaService) {}
+  private readonly service: SocialMediaService = inject(SocialMediaService);
+  constructor() {}
 
   ngOnInit(): void {
     this.getSocialMedia();
