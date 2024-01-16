@@ -60,12 +60,14 @@
     {
       "name": "Github",
       "url": "https://github.com/Chris-AM/portfolio",
-      "icon": "/assets/github-mark.svg"
+      "description": "Checkout this repo at Github",
+      "icon": "https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"
     },
     {
       "name": "Linkedin",
       "url": "https://www.linkedin.com/in/Chris-AM/",
-      "icon": "/assets/linkedin-black-iconpng.png"
+      "description": "Checkout my Linkedin profile",
+      "icon": "https://iconape.com/wp-content/files/yd/367773/png/367773.png"
     }
   ],
   "experience": [
