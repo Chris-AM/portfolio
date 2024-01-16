@@ -1,6 +1,7 @@
 :root {
   --primary-color: rgba(0, 0, 0, 0.8);
-  --active-color: rgba(31, 100, 30, 0.8);
+  --active-color: rgba(90, 0, 130, 0.8);
+  --background-effect: rgba(90, 0, 143, 0.49);
 }
 @font-face {
   font-family: "lato-black";
