@@ -11,12 +11,18 @@ import { HomeData } from '../../../domain/domain-index';
 import { HomeLogoComponent } from './home-logo/home-logo.component';
 import { CommonModule } from '@angular/common';
 import { HomeDescriptionComponent } from './home-description/home-description.component';
+import { SocialMediaComponent } from '../../shared/social-media/social-media.component';
 
 @Component({
   selector: 'app-home',
   standalone: true,
   changeDetection: ChangeDetectionStrategy.OnPush,
-  imports: [CommonModule, HomeLogoComponent, HomeDescriptionComponent],
+  imports: [
+    CommonModule,
+    HomeLogoComponent,
+    HomeDescriptionComponent,
+    SocialMediaComponent,
+  ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css',
 })
