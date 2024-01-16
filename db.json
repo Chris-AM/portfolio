@@ -61,13 +61,19 @@
       "name": "Github",
       "url": "https://github.com/Chris-AM/portfolio",
       "description": "Checkout this repo at Github",
-      "icon": "https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"
+      "icon": "fa-brands fa-github"
     },
     {
       "name": "Linkedin",
       "url": "https://www.linkedin.com/in/Chris-AM/",
       "description": "Checkout my Linkedin profile",
-      "icon": "https://iconape.com/wp-content/files/yd/367773/png/367773.png"
+      "icon": "fa-brands fa-linkedin-in"
+    },
+    {
+      "name": "Mail",
+      "url": "c.aranguizm@outlook.com",
+      "description": "Copy my mail to your clipboard",
+      "icon": "fa-solid fa-envelopes-bulk"
     }
   ],
   "experience": [
