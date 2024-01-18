@@ -105,5 +105,42 @@
       "date": "Oct 2020 - Jul 2021",
       "description": "In my first developer journey. I worked as a front end developer. Where I developed a mobile app using Ionic and Angular."
     }
+  ],
+  "references": [
+    {
+      "name": "Jorge Mora",
+      "position": "Front End Developer",
+      "company": "Acid Labs",
+      "photo": "https://uxwing.com/wp-content/themes/uxwing/download/business-professional-services/computer-user-icon.png",
+      "description": "Christian is a very responsible and committed person, he is always willing to help and learn new things. He is a very good developer and a great person."
+    },
+    {
+      "name": "Sebastián Cáceres",
+      "position": "Front End Developer",
+      "company": "Acid Labs",
+      "photo": "https://uxwing.com/wp-content/themes/uxwing/download/business-professional-services/computer-user-icon.png",
+      "description": "Christian is a very responsible and committed person, he is always willing to help and learn new things. He is a very good developer and a great person."
+    },
+    {
+      "name": "Jorge Mora",
+      "position": "Front End Developer",
+      "company": "Acid Labs",
+      "photo": "https://uxwing.com/wp-content/themes/uxwing/download/business-professional-services/computer-user-icon.png",
+      "description": "Christian is a very responsible and committed person, he is always willing to help and learn new things. He is a very good developer and a great person."
+    },
+    {
+      "name": "Sebastián Cáceres",
+      "position": "Front End Developer",
+      "company": "Acid Labs",
+      "photo": "https://uxwing.com/wp-content/themes/uxwing/download/business-professional-services/computer-user-icon.png",
+      "description": "Christian is a very responsible and committed person, he is always willing to help and learn new things. He is a very good developer and a great person."
+    },
+    {
+      "name": "Jorge Mora",
+      "position": "Front End Developer",
+      "company": "Acid Labs",
+      "photo": "https://uxwing.com/wp-content/themes/uxwing/download/business-professional-services/computer-user-icon.png",
+      "description": "Christian is a very responsible and committed person, he is always willing to help and learn new things. He is a very good developer and a great person."
+    }
   ]
 }

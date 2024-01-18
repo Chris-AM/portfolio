@@ -8,4 +8,5 @@ export const environment = {
   articles: '/articles',
   contact: '/contact',
   links: '/links',
+  references: '/references',
 };
