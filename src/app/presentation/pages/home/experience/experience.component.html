@@ -1,0 +1,13 @@
+<div class="experience-container">
+  <h2>Work Experience</h2>
+  <div class="experience-wrapper">
+    @for (item of experience(); track item.title) {
+      <div class="experience-box">
+        <img [src]="item.logo" alt="img not found" />
+        <h4>{{ item.company }}</h4>
+        <h3>{{ item.title }}</h3>
+        <p>{{ item.description }}</p>
+      </div>
+    }
+  </div>
+</div>

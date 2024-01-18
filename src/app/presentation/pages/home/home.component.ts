@@ -6,12 +6,13 @@ import {
   inject,
   signal,
 } from '@angular/core';
+import { CommonModule } from '@angular/common';
 import { HomeService } from '../../../use-cases/home/home.service';
 import { HomeData } from '../../../domain/domain-index';
 import { HomeLogoComponent } from './home-logo/home-logo.component';
-import { CommonModule } from '@angular/common';
 import { HomeDescriptionComponent } from './home-description/home-description.component';
 import { SocialMediaComponent } from '../../shared/social-media/social-media.component';
+import { ExperienceComponent } from './experience/experience.component';
 
 @Component({
   selector: 'app-home',
@@ -22,6 +23,7 @@ import { SocialMediaComponent } from '../../shared/social-media/social-media.com
     HomeLogoComponent,
     HomeDescriptionComponent,
     SocialMediaComponent,
+    ExperienceComponent,
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css',
