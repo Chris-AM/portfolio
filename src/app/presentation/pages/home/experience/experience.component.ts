@@ -7,12 +7,13 @@ import {
 } from '@angular/core';
 import { ExperienceModel } from '../../../../domain/domain-index';
 import { ExperienceService } from '../../../../use-cases/experience/experience.service';
+import { PresentationCardComponent } from '../../../shared/presentation-card/presentation-card.component';
 
 @Component({
   selector: 'app-experience',
   standalone: true,
   changeDetection: ChangeDetectionStrategy.OnPush,
-  imports: [],
+  imports: [PresentationCardComponent],
   templateUrl: './experience.component.html',
   styleUrl: './experience.component.css',
 })

@@ -11,36 +11,20 @@ h3 {
   margin-bottom: 1em;
   padding-top: 15px;
 }
-.experience-container {
-  flex-basis: 300px;
-  padding-top: 3rem;
-}
-.experience-wrapper {
+.card-box {
   align-items: stretch;
-  display: flex;
-  margin: -3rem;
-  padding: 2rem 0rem;
-}
-.experience-box {
   box-sizing: border-box;
   overflow: hidden;
   padding: 2.5rem;
-  width: 25%;
   transition: all 0.2s ease-in-out;
 }
-.experience-box:hover {
+.card-box:hover {
   background-color: var(--background-effect);
   color: white;
 }
-.experience-card {
-  border-radius: 5%;
-  height: 3rem;
-  mix-blend-mode: normal;
-  opacity: 0.8;
-}
 
 @media (max-width: 1024px) {
-  .experience-box {
+  .card-box {
     width: 50%;
     transition: all 0.2s ease-in-out;
   }
