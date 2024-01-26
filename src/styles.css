@@ -30,3 +30,15 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.cards-container{
+  padding-top: 3rem;
+}
+
+.cards-wrapper {
+  align-items: stretch;
+  display: flex;
+  margin: -3rem;
+  padding: 2rem 0rem;
+}
+
