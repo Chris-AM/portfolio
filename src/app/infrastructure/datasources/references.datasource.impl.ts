@@ -15,7 +15,7 @@ export abstract class ReferencesDataSourceImpl implements ReferencesDataSource {
 
   getReferences(): Observable<ReferenceModel[]> {
     const petition = this.http.get<ReferenceModel[]>(
-      `${this.baseUrl}${environment.references}`,
+      `${this.baseUrl}${environment.references}`
     );
     return petition;
   }

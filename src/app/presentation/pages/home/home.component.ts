@@ -13,6 +13,7 @@ import { HomeLogoComponent } from './home-logo/home-logo.component';
 import { HomeDescriptionComponent } from './home-description/home-description.component';
 import { SocialMediaComponent } from '../../shared/social-media/social-media.component';
 import { ExperienceComponent } from './experience/experience.component';
+import { ReferencesComponent } from './references/references.component';
 
 @Component({
   selector: 'app-home',
@@ -24,6 +25,7 @@ import { ExperienceComponent } from './experience/experience.component';
     HomeDescriptionComponent,
     SocialMediaComponent,
     ExperienceComponent,
+    ReferencesComponent
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css',
