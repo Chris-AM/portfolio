@@ -82,28 +82,28 @@
       "company": "TCS",
       "logo": "/assets/tcs-logo.png",
       "date": "Feb 2023 - Jan 2024",
-      "description": "I worked as an Angular developer creating app architecture and following all platform's best practices."
+      "description": "I was in charge of developing and maintaining the computer systems for the new Caja Vecina portal of Banco Estado on the web, ensuring their responsiveness across various views, including web, tablet, or mobile, using Angular 10/Flutter and NestJS (NodeJS)"
     },
     {
       "title": "Software Engineer",
       "company": "SafeSigner",
       "logo": "/assets/safesigner-logo.png",
       "date": "Oct 2022 - Feb 2023",
-      "description": "In this position, I was responsible for developing and maintaining functionalities and views of the different signature and authentication portals offered by the company. Where I also helped as Angular monitor for interns and trainees."
+      "description": "I was responsible for developing and maintaining functionalities and views of the different signature and authentication portals offered by the company, whether on mobile or web platforms with technologies such as Angular, framework in which I played the role of expert."
     },
     {
       "title": "Full Stack Developer",
       "company": "Acid Labs",
       "logo": "/assets/acid-labs-logo.png",
       "date": "Jul 2021 - Oct 2022",
-      "description": "I worked with many clients in different projects, developing front and back end applications."
+      "description": "I optimized SKY Airlines' sales portal, proposing improvements and enhancing ticket sales auditing. At MDS-ADIS, I designed REST APIs for the Ministry of Social Development's portal. With Banco Estado, I specialized in Angular, Vue.JS, Spring, and NodeJS."
     },
     {
       "title": "Front End/Mobile Developer",
       "company": "Ntt Data",
       "logo": "/assets/ntt-data-logo.png",
       "date": "Oct 2020 - Jul 2021",
-      "description": "In my first developer journey. I worked as a front end developer. Where I developed a mobile app using Ionic and Angular."
+      "description": "My main role was to develop views and functionalities for the mobile and web portal of Movistar Chile's people portal. During my time at Everis Centers, I acquired valuable skills in Front End and Mobile development,"
     }
   ],
   "references": [
