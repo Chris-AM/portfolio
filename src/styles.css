@@ -31,14 +31,39 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+h2 {
+  font-family: "lato-black";
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+
 .cards-container{
   padding-top: 3rem;
 }
 
 .cards-wrapper {
-  align-items: stretch;
   display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
   margin: -3rem;
   padding: 2rem 0rem;
 }
 
+.card-box {
+  box-sizing: border-box;
+  overflow: hidden;
+  padding: 1.5rem;
+  max-width: 25%;
+  transition: all 0.2s ease-in-out;
+}
+.card-box:hover {
+  background-color: var(--background-effect);
+  color: white;
+}
+
+@media (max-width: 1024px) {
+  .card-box {
+    width: 50%;
+    transition: all 0.2s ease-in-out;
+  }
+}

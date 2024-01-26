@@ -2,7 +2,7 @@
   <h2>Work Experience</h2>
   <div class="cards-wrapper">
     @for (item of experience(); track item.title) {
-    <app-presentation-card
+    <app-presentation-card class="card-box"
       [logo]="item.logo"
       [subTitle]="item.company"
       [title]="item.title"
