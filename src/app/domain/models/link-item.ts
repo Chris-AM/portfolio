@@ -1,9 +1,9 @@
-export interface NavbarItem {
+export interface LinkItem {
   name: string;
   path: string;
 }
 
-export const doomyNavBarItems: NavbarItem[] = [
+export const doomyNavBarItems: LinkItem[] = [
   {
     name: 'Home',
     path: '/home',

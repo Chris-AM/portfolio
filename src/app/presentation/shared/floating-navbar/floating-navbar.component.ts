@@ -5,8 +5,8 @@ import {
   inject,
   signal,
 } from '@angular/core';
-import { NavbarService } from '../../../use-cases/navbar/navbar.service';
-import { NavbarItem } from '../../../domain/domain-index';
+import { LinkService } from '../../../use-cases/navbar/link.service';
+import { LinkItem } from '../../../domain/domain-index';
 import { RouterModule, RouterOutlet } from '@angular/router';
 
 @Component({
@@ -18,9 +18,9 @@ import { RouterModule, RouterOutlet } from '@angular/router';
   styleUrl: './floating-navbar.component.css',
 })
 export class FloatingNavbarComponent implements OnInit {
-  public navbarItems = signal<NavbarItem[]>([]);
+  public navbarItems = signal<LinkItem[]>([]);
 
-  private readonly navService: NavbarService = inject(NavbarService);
+  private readonly navService: LinkService = inject(LinkService);
   constructor() {}
 
   ngOnInit(): void {

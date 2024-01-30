@@ -1,9 +1,9 @@
-export { NavbarItem } from './models/navbar-item';
+export { LinkItem } from './models/link-item';
 export { HomeData } from './models/home-data.model';
 export { ExperienceModel } from './models/experience.model';
 export { ReferenceModel } from './models/references.model';
 export { SocialMedia } from './models/social-media.model';
-export { NavbarDataSource } from './datasources/navbar.datasource';
+export { LinksDataSource } from './datasources/links.datasource';
 export { HomePageDataSource } from './datasources/home-page.datasource';
 export { SocialMediaDataSource } from './datasources/social-media.datasource';
 export { ExperienceDataSource } from './datasources/experience.datasource';
