@@ -1,12 +1,19 @@
-.page-footer {
+.footer-container{
   margin-top: 50px;
   position: block;
 }
 
-.page-footer::before {
+.footer-container::before {
   content: "";
   position: absolute;
   left: 0;
   right: 0;
   border-top: 2px solid var(--background-effect);
+}
+
+.footer{
+  align-items: center;
+  display: flex;
+  margin-top: 5rem;
+  padding: 2.5rem 0;
 }
