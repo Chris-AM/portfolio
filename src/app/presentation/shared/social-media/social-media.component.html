@@ -1,19 +1,19 @@
-@for (item of socialMedia(); track item.name) {
-  @if (showJustIcons) {
-    <div class="home-page-media-icons">
-      @if (item.name === "Mail") {
-        <i class="{{ item.icon }}" (click)="copyToClipboard(item.url)">
-          <span>{{ item.description }}</span>
-        </i>
-      } @else {
-        <a href="{{ item.url }}" target="_blank">
-          <i class="{{ item.icon }}">
-            <span> {{ item.description }} </span>
-          </i>
-        </a>
-      }
-    </div>
+@for (item of socialMedia(); track item.name) { @if (showJustIcons) {
+  @if (item.name === "Mail") {
+  <i class="{{ item.icon }}" (click)="copyToClipboard(item.url)">
+    <span class="hidden-description">{{ item.description }}</span>
+  </i>
   } @else {
-    <p>NOT AT HOME</p>
+  <a href="{{ item.url }}" target="_blank">
+    <i class="{{ item.icon }}">
+      <span class="hidden-description"> {{ item.description }} </span>
+    </i>
+  </a>
   }
-}
+} @else {
+<a href="{{ item.url }}" target="_blank">
+  <i class="{{ item.icon }}">
+    <span class="visible-description"> {{ item.description }} </span>
+  </i>
+</a>
+} }

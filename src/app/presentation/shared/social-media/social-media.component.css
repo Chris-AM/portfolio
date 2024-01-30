@@ -9,7 +9,7 @@ i {
 i:hover {
   color: var(--active-color);
 }
-i span {
+i .hidden-description {
   visibility: hidden;
   width: 20rem;
   background-color: var(--background-effect);
@@ -23,10 +23,14 @@ i span {
   font-family: "raleway-variable";
   font-size: large;
 }
-i:hover span {
+i:hover .hidden-description {
   visibility: visible;
   opacity: 1;
 }
-span {
+.hidden-description {
   margin-top: 10%;
+}
+.visible-description{
+  font-family: "lato-regular";
+  font-size: 1.3rem;
 }
