@@ -1,17 +1,5 @@
-<div class="nav-container">
-  <nav class="navbar">
-    <div class="nav-background">
-      <ul class="nav-list">
-        @for (item of navbarItems(); track item.name) {
-          <li class="nav-item">
-            <a
-              routerLink="{{ item.path }}"
-              routerLinkActive="nav-item-active"
-              >{{ item.name }}</a
-            >
-          </li>
-        }
-      </ul>
-    </div>
-  </nav>
-</div>
+<nav class="navbar">
+  <div class="nav-background">
+    <app-links />
+  </div>
+</nav>

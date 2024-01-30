@@ -1,37 +1,12 @@
-import {
-  ChangeDetectionStrategy,
-  Component,
-  OnInit,
-  inject,
-  signal,
-} from '@angular/core';
-import { LinkService } from '../../../use-cases/navbar/link.service';
-import { LinkItem } from '../../../domain/domain-index';
-import { RouterModule, RouterOutlet } from '@angular/router';
+import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { LinksComponent } from '../links/links.component';
 
 @Component({
   selector: 'app-floating-navbar',
   standalone: true,
   changeDetection: ChangeDetectionStrategy.OnPush,
-  imports: [RouterModule, RouterOutlet],
+  imports: [LinksComponent],
   templateUrl: './floating-navbar.component.html',
   styleUrl: './floating-navbar.component.css',
 })
-export class FloatingNavbarComponent implements OnInit {
-  public navbarItems = signal<LinkItem[]>([]);
-
-  private readonly navService: LinkService = inject(LinkService);
-  constructor() {}
-
-  ngOnInit(): void {
-    this.getNavbarItems();
-  }
-
-  private getNavbarItems(): void {
-    this.navService.getNavbarItems().subscribe({
-      next: (items) => {
-        this.navbarItems.set(items);
-      },
-    });
-  }
-}
+export class FloatingNavbarComponent {}

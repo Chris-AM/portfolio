@@ -10,13 +10,7 @@ nav {
   height: 4rem;
   width: 100%;
 }
-#check {
-  display: none;
-}
-a:link,
-a:visited {
-  color: var(--primary-color);
-}
+
 nav.navbar {
   display: flex;
   align-items: center;
@@ -32,19 +26,4 @@ nav.navbar {
   height: 4rem;
   padding: 0;
   width: 24.8rem;
-}
-
-nav ul {
-  float: right;
-  margin: 1.5rem 1.8rem 0rem 0rem;
-}
-
-nav ul li {
-  display: inline-block;
-  line-height: 0.8rem;
-  margin: 0 0.5rem;
-}
-
-.nav-item-active {
-  color: var(--active-color) !important;
 }
