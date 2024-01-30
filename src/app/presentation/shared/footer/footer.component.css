@@ -1,0 +1,12 @@
+.page-footer {
+  margin-top: 50px;
+  position: block;
+}
+
+.page-footer::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  border-top: 2px solid var(--background-effect);
+}
