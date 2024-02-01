@@ -1,6 +1,5 @@
 .footer-container{
   margin-top: 50px;
-  position: block;
 }
 
 .footer-container::before {
@@ -12,8 +11,18 @@
 }
 
 .footer{
-  align-items: center;
   display: flex;
-  margin-top: 5rem;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  margin-left: -5rem;
   padding: 2.5rem 0;
+}
+
+.footer-links{
+  margin-top: 1rem;
+}
+.social-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }

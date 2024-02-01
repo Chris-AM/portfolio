@@ -9,6 +9,9 @@ i {
 i:hover {
   color: var(--active-color);
 }
+a {
+  margin-bottom: 1rem;
+}
 i .hidden-description {
   visibility: hidden;
   width: 20rem;
@@ -30,7 +33,7 @@ i:hover .hidden-description {
 .hidden-description {
   margin-top: 10%;
 }
-.visible-description{
+.visible-description {
   font-family: "lato-regular";
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
