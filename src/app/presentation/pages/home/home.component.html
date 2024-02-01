@@ -1,6 +1,11 @@
 <!-- This is the home page template -->
 <div class="homepage-logo-container">
-  <app-home-logo [avatar]="homeData().avatar" [logoSize]="logoSize()" />
+  <app-home-logo
+    [avatar]="homeData().avatar"
+    [logoSize]="logoSize()"
+    (scroll)="onWindowScroll()"
+    [ngClass]="stayAtTop() ? 'fixed-logo' : 'normal-logo'"
+  />
 </div>
 <div class="homepage-container">
   <div class="description">

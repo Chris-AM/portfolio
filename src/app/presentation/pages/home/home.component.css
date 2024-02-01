@@ -15,3 +15,12 @@
   justify-content: left;
   padding-top: 0.5rem;
 }
+.fixed-logo{
+  position: fixed;
+  z-index: 1;
+  top: 0;
+}
+
+.normal-logo{
+  transition: all .8s ease-out;
+}
