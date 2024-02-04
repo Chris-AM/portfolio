@@ -44,7 +44,7 @@ export class HomeComponent implements OnInit {
   @HostListener('window:scroll', ['$event'])
   onWindowScroll() {
     const position = Math.round(window.scrollY);
-    if (window.scrollY > 100) {
+    if (position > 100) {
       this.stayAtTop.set(true);
       this.logoSize.set(80);
     } else {
